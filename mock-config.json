@@ -1,0 +1,20 @@
+{
+    "port": 3001,
+    "protocol": "http",
+    "stubs": [
+      {
+        "responses": [
+          {
+            "is": {
+              "statusCode": 200,
+              "headers": { "Content-Type": "application/json" },
+              "body": {
+                "message": "Registro de slip de aseguradora exitoso"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+  
